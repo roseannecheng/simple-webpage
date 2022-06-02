@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Skincare by Rose | Skincare for Everyday</title>
+        <meta charset ="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="logobanner">
+                <img src="images/logo2.png" alt="Skincare by Rose logo">
+            </h1>
+            
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href = "shop.html">Shop</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            
+            <div class="contactBox">
+                <p id="contact">Keep in Touch</p>
+                <p id="message">Complete the form for any inquiries or suggestions. <br>
+                We'll do our best to get back to you within 24 hours. </p>
+            </div>
+
+                <!--Contact Form-->
+            <form>
+                
+                    <div class="formGroup">
+                    <label for="username">Full Name</label>
+                    <input type="text" name="name" id="username" placeholder="Enter your first name and last name" required>
+                    <p id="errorMsg1"></p>
+                    </div>
+                    
+                    <div class="formGroup">
+                        <label for="emailAdd">Email</label>
+                        <input type="email" name="emailAdd" id="emailAdd" placeholder="Enter your email address" required>
+                        <p id="errorMsg2"></p>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="textbox">Message</label>
+                        <textarea id="textbox" name="message" rows="10" cols="40"></textarea>
+                        <p id="errorMsg3"></p>
+                    </div>
+
+                    <button type="button" onclick="submitFunc()">Send</button>
+
+                
+            
+            </form>
+
+            <footer>
+                &copy; 2021 Roseanne Cheng | 300323480
+            </footer>
+
+            <script src="script.js"></script>
+    </body>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Skincare by Rose | Skincare for Everyday</title>
+        <meta charset ="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="logobanner">
+                <img src="images/logo2.png" alt="Skincare by Rose logo">
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href = "shop.html">Shop</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div class = "mainPhoto"></div>
+
+            <div class = "intro">
+                <h1>Hey there! <br></h1>
+                    <p>Welcome to Skincare by Rose 👋<br><br> Our passion is keeping you and your skin happy and hyrdated by creating <br>skincare
+                    products made from ingredients that are organic and cruelty-free. <br><br> So if you're new to the skincare game, don't you worry
+                    — we've got you <br>covered!</p>
+                    
+                <a href="about.html" class="button"> Our Story</a>
+            </div>
+
+            <form class="formStyles">
+                <div class="surveyBanner">
+                        <p id="surveyHead"> Let's get to know each other!</p>
+                        <p id="surveyBody"> Answer the following questions, so we can get to know your skin better <br>and make recommendations.</p>
+                </div>
+
+                <div class="survey">
+                        <p class="questions">What is your skin type?</p>
+                        <div class="Q1">
+                        <label><input type="radio" id="radiobtn" name="radiobtn" onchange="myFunc()" value="1"> Dry Skin</label>
+                        <label><input type="radio" id="radiobtn" name="radiobtn" onchange="myFunc()" value="2"> Oily Skin</label>
+                        <label><input type="radio" id="radiobtn" name="radiobtn" onchange="myFunc()" value="3"> Combination Skin</label>
+                        </div>
+
+                        <p class="questions">What best describes your skin concerns?<br> 1 = sensitive skin <br> 2 = acne-prone skin <br> 3 = uneven skin tone</p>
+                        <div class="Q2">
+                                <input type="text" id="question2" name="Question2">
+                        </div>
+
+                        <button type="button" id="homeSurvey" onclick="surveyForm(form)">Submit</button>
+                </div> 
+
+                    <p id="responseSummary">Your responses and our product recommendations are as follows:</p>
+                    <p id="response1"></p><br>
+                    <p id="response2"></p>
+
+            </form>
+
+            <div class="products">
+                <table>
+                    <tr>
+                        <td><img src="images/cleanser.png" style="width: 50%" alt="cleanser"></td>
+                        <td><img src="images/serum.png" style="width: 50%" alt="serum"></td>
+                        <td><img src="images/moisturizer.png" style="width: 50%" alt="moisturizer"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Low PH Gel Cleanser</td>
+                        <td>Vitamin C Serum</td>
+                        <td>Oil-Free Moisturizer</td>
+                    </tr>
+
+                    <tr>
+                        <td class="descriptions">Gentle, water-based cleanser</td>
+                        <td class="descriptions">Brightening and evening skin tone</td>
+                        <td class="descriptions">Basic, lightweight moisturizer</td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="shop.html" class="button"> Discover Now</a></td>
+                        <td><a href="shop.html" class="button"> Discover Now</a></td>
+                        <td><a href="shop.html" class="button"> Discover Now</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <footer>
+            &copy; 2021 Roseanne Cheng | 300323480
+            </footer>
+            
+            <script src="script.js"></script>
+    </body>
+</html>

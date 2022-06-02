@@ -1,0 +1,606 @@
+*{
+    box-sizing: border-box;
+    /* border: 2px solid black;  */
+}
+
+body{
+    background-color: #F5F3EF;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+}
+
+/* Header Photo Styles */
+#logobanner{
+    text-align: center;
+    padding:0;
+    margin:0;
+    height: 50px;
+}
+
+/*Styles for navigation bar*/
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background-color: #F5F3EF;
+}
+
+li{
+    display:inline-block;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#B26995;
+    font-size: 20px;
+    padding:10px;
+}
+
+/* Home Page */
+.mainPhoto{
+    width: 100%;
+    height: 550px;
+    background-image: url(images/Skincare.jpg);
+    background-repeat: no-repeat;
+}
+
+.intro{
+    height: 400px;
+    margin-left: 70px;
+    background-image: url(images/products.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    color:#642714;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/* Home Page Survey Section */
+.formStyles{
+    background-color:#EBD3D7;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#surveyHead{
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #642714;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+#surveyBody{
+    color: #642714;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.survey{
+    border: 2px solid #F5F3EF;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    border-radius: 10px;
+    background-color: #F5F3EF;
+    color: #642714;
+}
+
+.Q1 label, .Q2 label{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Q1 input, .Q2 input{
+    color:#642714;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #F5F3EF;
+}
+
+.questions{
+    font-size: 18px;
+    color: #642714;
+}
+
+#responseSummary, #productReco{
+    margin-right: auto;
+    margin-left: auto;
+    color: #642714;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#response1, #response2{
+    margin-right: auto;
+    margin-left: auto;
+    color: #642714;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: medium double #F5F3EF;
+    border-radius: 20px;
+    background-color: #B26995;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    color:#F5F3EF;
+}
+
+/*Home Page Products Section*/
+.products{
+    background-color: #F5F3EF;
+    height:450px;
+    padding:20px;
+}
+
+td{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding:10px;
+}
+
+img{
+    border-radius: 40px;
+}
+
+.descriptions{
+    font-weight: lighter;
+}
+
+.email{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height:180px;
+}
+
+label{
+    font-size: 50px;
+    
+}
+
+input{
+    font-size: 30px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.submit{
+    border-radius: 30px;
+    background-color: #B26995;
+    color:#F5F3EF;
+    height:30px;
+    border:solid #F5F3EF;
+}
+
+/*About Us Page*/
+.about{
+    padding-left: 100px;
+    padding-top: 200px;
+    display:flex;
+    flex-direction: row;
+    background: url(images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height:400px;
+}
+
+h2{
+    font-size: 70px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#642714;
+    letter-spacing: 10px;
+    font-weight: lighter;
+}
+
+.story{
+    height:300px;
+    border-radius: 20px;
+    background:url(images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.founder{
+    border:2px solid #642714;
+    color:#642714;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding:20px;
+    background-color: #EBD3D7;
+    width: fit-content;
+}
+
+.productphoto{
+    background-image: url(images/products.png);
+    height:300px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#discoverBtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: medium double #F5F3EF;
+    border-radius: 20px;
+    background-color: #B26995;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    color:#F5F3EF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/*Contact Us Page*/
+.contactBox{
+    background-color:#EBD3D7;
+    padding: 2px 20px 10px 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#contact{
+    font-size: 70px;
+    color:#642714;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+}
+
+#message{
+    color:#642714;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Contact Us Form Styles*/
+form{
+    padding-left:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formGroup label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:#642714;
+}
+
+.formGroup input{
+    width:400px;
+    padding:10px;
+    font-size: 15px;
+    color:#642714;
+    margin-bottom: 10px;
+}
+
+button{
+    color:#642714;
+    font-size: 15px;
+    padding:5px;
+    border: 1px solid #642714;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: #642714;
+    color:white;
+}
+
+/*Shop Page*/
+.productMain{
+    padding-left: 100px;
+    padding-top: 200px;
+    display:flex;
+    flex-direction: row;
+    background: url(images/freepik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height:400px;
+}
+
+#intro{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+    color: #642714;
+}
+
+.productList{
+    display:flex;
+    margin-bottom: 10px;
+}
+
+#cleanser{
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    text-align: center;
+}
+
+#moisturizer{
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    text-align: center;
+}
+
+#serum{
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    text-align: center;
+}
+
+footer{
+    background-color: #B26995;
+    height: 40px;
+    padding-top:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:white;
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        display: block;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    /* Header and Nav Styles */
+    #logobanner img{
+        margin-bottom: 0;
+        width: 400px;
+    }
+
+    nav ul{
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    li{
+        display: block;
+        text-align: center;
+        margin:0;
+        padding:5px;
+        font-size: small;
+    }
+
+    .mainPhoto{
+        display: none;
+    }
+
+    /* Intro Section */
+    .intro{
+        background-image: none;
+        margin-left: 0px;
+        margin-bottom: 100px;
+    }
+
+    h1{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+    }
+
+    /* Home Page Products */
+    .products{
+        height:350px;
+    }
+
+    /* Home Page Survey */
+    .formStyles{
+        padding-left: 0;
+    }
+
+    #surveyHead{
+        font-size: 35px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    #surveyBody{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .survey{
+        border: 2px solid #F5F3EF;
+        margin-left: auto;
+        margin-right: auto;
+        padding:10px;
+        border-radius: 10px;
+        background-color: #F5F3EF;
+        color: #642714;
+    }
+    
+    .Q1 label, .Q2 label{
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .questions{
+        font-size: 18px;
+        color: #642714;
+    }
+    
+    #responseSummary, #productReco{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    
+    #response1, #response2{
+        font-size: 14px;
+    }
+    
+    .button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* About Us Page */
+    .about{
+        padding-left: 0px;
+        padding-top: 0px;
+        display:block;
+        background: none;
+        padding-bottom: 0;
+        height:70px;
+    }
+    
+    h2{
+        font-size: 50px;
+        height:70px;
+        padding:0;
+        margin:0;
+    }
+    
+    .story{
+        height:0;
+        background:none;
+        display: none;
+    }
+    
+    .founder{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    .productphoto{
+        display: none;
+        background:none;
+    }
+
+    /* Shop Page */
+    .productMain{
+        padding-left: 0;
+        padding-top: 0px;
+        display:block;
+        background: none;
+        height:80px;
+    }
+    
+    #intro{
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding:10px;
+    }
+    
+    .productList{
+        display:block;
+    }
+    
+    #cleanser{
+        width: fit-content;
+    }
+    
+    #moisturizer{
+        width: fit-content;
+    }
+    
+    #serum{
+        width: fit-content;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+   body{
+       display: block;
+       width:100%;
+   }
+
+   .mainPhoto{
+        display: none;
+   }
+
+   .intro{
+    height: 350px;
+    margin-left: 40px;
+    background-image: none;
+    }
+
+    .products{
+        height:350px;
+    }
+
+    /* Shop Page */
+    #cleanser img{
+        width: 300px;
+        height: 300px;
+        padding:10px;
+    }
+    
+    #moisturizer img{
+        width: 300px;
+        height: 300px;
+        padding:10px;
+    }
+    
+    #serum img{
+        width: 300px;
+        height: 300px;
+        padding:10px;
+    }
+
+    #cleanser p{
+        height: 150px;
+    }
+    
+    #moisturizer p{
+        height: 150px;
+    }
+    
+    #serum p{
+        height: 150px;
+    }
+
+    
+}
+

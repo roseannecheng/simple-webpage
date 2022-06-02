@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Skincare by Rose | Skincare for Everyday</title>
+        <meta charset ="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body onload="survey()">
+        <header>
+            <h1 id="logobanner">
+                <img src="images/logo2.png" alt="Skincare by Rose logo">
+            </h1>
+            
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href = "shop.html">Shop</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+            <div class="productMain">
+                <h2>Our Products</h2>
+            </div>
+
+            <p id="intro"> Shop our best-selling skincare products made from 100% organic ingredients. <br>
+            Designed to target all skin type and concerns, discover products that are simple enough to <br>
+            make up your daily skincare routine.</p>
+
+        <div class="productList">
+            <div id="cleanser">
+                <img src="images/product1.png" height=400 width=400 alt="cleanser" onmouseover="mouseovereffect1();" onmouseout="mouseouteffect1();">
+                <p>Packed with BHA and tea tree oil that helps to remove dirt and impurities. <br><br> Works great as an everyday cleanser and keeps your skin's PH balanced.</p>
+                <button type="button" value="Shop now" class="button" id="cleanserButton" onclick="shopFunction1();">Shop Now</button>
+            </div>
+
+            <div id="moisturizer">
+                <img src="images/product2.png" height=400 width=400 alt="moisturizer" onmouseover="mouseovereffect2();" onmouseout="mouseouteffect2();">
+                <p>Say goodbye to greasy moisturizers! <br><br> Packed with hyaluraunic acid, this moisturizer will leave your skin soft and smooth.</p>
+                <button type="button" value="Shop now" class="button" id="moisturizerButton" onclick="shopFunction2();">Shop Now</button>
+            </div>
+
+            <div id="serum">
+                <img src="images/product3.png" height= 400 width=400 alt="serum" onmouseover="mouseovereffect3();" onmouseout="mouseouteffect3();">
+                <p>Made with Vitamin C, a powerful antioxidant that helps brighten your skin. <br><br> With everyday use, you can watch your skin glow.</p>
+                <button type="button" value="Shop now" class="button" id="serumButton" onclick="shopFunction3();">Shop Now</button>
+            </div>
+        </div>   
+
+        <footer>
+            &copy; 2021 Roseanne Cheng | 300323480
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
